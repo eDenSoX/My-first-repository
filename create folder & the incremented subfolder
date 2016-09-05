@@ -16,10 +16,20 @@ fi
 
 cd $folder
 
+#set the prefix of all subfodlers
+read -p 'Enter the subfolder prefix tag : ' prefix
+
 #set the number of subfolder  you want to create 
 read -p 'Enter the number of sub-folder you want to create : ' number
 
 for n in `seq 1 $number`
 do
-        mkdir cours_$n
-"test_01.sh" 28L, 695C                                                                                                       1,1           Top
+        mkdir $prefix$n
+done
+
+echo 'sub-folders successfully created :) '
+#list to make sure everything went smooth 
+ls
+
+
+                                                                                                      
