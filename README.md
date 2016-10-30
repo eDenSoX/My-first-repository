@@ -1,2 +1,2 @@
-# My-first-repository
-hi im eDen !!
+# repository
+hi im eDen :) 
