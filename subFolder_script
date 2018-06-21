@@ -1,4 +1,5 @@
 #!/bin/bash
+#file renamed 
 #first prompt to enter the name of the folder to create
 read -p 'Enter folder name : ' folder
 
